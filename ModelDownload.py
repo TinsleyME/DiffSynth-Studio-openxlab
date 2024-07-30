@@ -23,7 +23,7 @@ def is_port_in_use(port):
             return True
     return False
 
-def start_jupyter_lab(port=8889):
+def start_jupyter_lab(port=8899):
     """
     启动 JupyterLab
     """
